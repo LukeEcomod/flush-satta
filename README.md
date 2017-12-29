@@ -31,7 +31,7 @@ The Gi is based on Launiainen et al. (2018) HESS, modified from Saugier & Katerj
 Gi = gsref * fQ * fVPD * fPheno * fRew
 
 gsref = leaf stomatal conductance at 1kPa and saturated light (ms-1)
-fQ = light modifier, fVPD = vpd modifier, fPheno = phenology modifier, fRew = soil water modifier (here fRew = 1)
+fQ = light modifier, fVPD = vpd modifier, fPheno = phenology modifier, fRew = soil water modifier (here fRew = 1 since FLUSH accounts for restriction)
 
 Returns:
 
@@ -45,3 +45,4 @@ Returns:
 * Evap_u - mm d-1 evaporation rate from understory storage
 * ET - mm d-1 total ET
 * SWE - mm snow water equivalent
+
