@@ -1,5 +1,5 @@
 # flush-satta
-Computing inputs to FLUSH 3D soil model to study hydrology of drained peatland forest (Stenberg et al. 2018)
+Computing inputs to FLUSH 3D soil model to study hydrology of drained peatland forest. (Stenberg et al. 2018, Hydrology of Drained Peatland Forest: Numerical Experiment on the Role of Tree Stand Heterogeneity and Management, https://www.mdpi.com/1999-4907/9/10/645)
 
 The repository contains Python-codes, ini-files and input/output datafiles used to produce input data to FLUSH 3D soil model at Sattasuo drained peatland forest.
 
@@ -26,7 +26,7 @@ Tr_i = C x Gi x VPD / P,
 
 where Gi is layer's integrated conductance (ms-1), VPD vapor pressure deficit (kPa) and P (kPa) ambient pressure. C = Cair * Mwater is conversion factor from ms-1 to kgm-2s-1.  
 
-The Gi is based on Launiainen et al. (2018) HESS, modified from Saugier & Katerji, 1991 and Kelliher et al. 1995.
+The Gi is slight simplification on Launiainen et al. (2018) GMDD, modified from Saugier & Katerji, 1991 and Kelliher et al. 1995.
 
 Gi = gsref * fQ * fVPD * fPheno * fRew
 
